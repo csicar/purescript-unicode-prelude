@@ -13,9 +13,13 @@ __ = unit
 
 -- | `\verymuchless`
 infixr 9 compose as ⋘
+-- | AltGr+x
+infixr 9 compose as «
 
 -- | `\ggg`
 infixr 9 composeFlipped as ⋙
+-- | AltGr+y
+infixr 9 composeFlipped as »
 
 -- | `\ne`
 infix 4 notEq as ≠

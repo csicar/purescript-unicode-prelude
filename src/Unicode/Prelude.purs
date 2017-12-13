@@ -28,7 +28,11 @@ notIgnore ∷ ∀d a. HeytingAlgebra a => d → a → a
 notIgnore _ = not
 
 -- | `\neg`
-infixr 7 not as ¬
+-- | use as:
+-- | ```purescript
+-- | __ ¬ false
+-- | ```
+infixr 7 notIgnore as ¬
 
 -- | `\vee`
 infixr 2 disj as ∨
